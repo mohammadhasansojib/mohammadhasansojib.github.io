@@ -34,5 +34,35 @@ MD Hasan Sojib Portfolio Website/
 |___README.md # project documentation
 </pre>
 
-## HTML Structure
-### index.html 
+## Screen size breakpoints for responsive design
+This breakpoint is according to the microsoft screen size breakpoints for responsive design.
+
+* Small: 0-640px
+* Medium: 641-1007px
+* Large: 1008-up
+
+## Fonts
+The whole website contains two fonts. Main font and a secondary font.
+
+-- Root size : 62.5%
+
+* Main font: Poppins
+* Secondary font: Poppins
+
+### Optimal Font sizes for large devices
+
+* Body text: 18px (1.8rem)
+* Headings: 35px (3.5rem, it should be 1.96 times larger than body text)
+* Sub-headings: 30px (3rem)
+
+### Optimal Font sizes for medium devices
+
+* Body text: 17px (1.7rem)
+* Headings: 30px (3rem)
+* Sub-headings: 25px (2.5rem)
+
+### Optimal Font sizes for small devices
+
+* Body text: 16px (1.6rem)
+* Headings: 21px (2.1rem, it should be 1.3 times larger than body text)
+* Sub-headings: 18px (1.8rem)
