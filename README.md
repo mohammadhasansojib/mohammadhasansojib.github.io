@@ -34,6 +34,18 @@ MD Hasan Sojib Portfolio Website/
 |___README.md # project documentation
 </pre>
 
+## HTML Structure
+### index.html
+The Home page includes personal info such as 
+<pre>
+profession title : Frontend Developer
+profession description : Professionally i am an student and right now working as a frontend web developer. I make frontend by coding, not using any cms(content management system) right now.
+
+profile picture : <img src="images/profile-picture.jpg" width="50">
+</pre>
+
+and a call to action.
+
 ## Screen size breakpoints for responsive design
 This breakpoint is according to the microsoft screen size breakpoints for responsive design.
 
