@@ -142,6 +142,50 @@ body{
 
 
 
+
+
+/* FOOTER SECTION >>>>>>>> */
+#footer-sec{
+    background-color: var(--layer-2);
+}
+#footer-sec .container .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+    padding: 20px 0;
+}
+#footer-sec .container .row .credit-text{
+    font-size: var(--large-body-text);
+    font-weight: 700;
+}
+#footer-sec .container .row .social-links li{
+    display: inline-block;
+}
+#footer-sec .container .row .social-links li a{
+    border: 2px solid black;
+
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 50%;
+
+    margin: 0 5px;
+}
+#footer-sec .container .row .social-links li a img{
+    width: 20px;
+    display: inline-block;
+    transform: translate(10%, 10%);
+}
+/* FOOTER SECTION <<<<<<<< */
+
+
+
+
+
+
 /* RESPONSIVE DESIGN >>>>>>>> */
 
 /* MEDIUM DEVICES */
@@ -178,12 +222,21 @@ body{
     #header-sec .container .row .nav-btn{
         display: block;
     }
+
+
+    #footer-sec .container .row{
+        flex-direction: column;
+    }
 }
 
 /* SMALL DEVICES */
 @media only screen and (max-width: 640px){
     #header-sec .container .row .logo h2{
         font-size: var(--small-sub-headding);
+    }
+
+    #footer-sec .container .row .credit-text{
+        font-size: var(--small-body-text);
     }
 }
 
