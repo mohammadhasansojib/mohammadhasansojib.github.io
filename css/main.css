@@ -88,7 +88,12 @@ body{
 #header-sec{
     background-color: var(--layer-2);
 
-    position: relative;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    min-width: 100%;
+
+    z-index: 5;
 }
 #header-sec .container .row{
     display: flex;
@@ -163,6 +168,9 @@ body{
 #hero-sec{
     background-color: var(--layer-1);
     min-height: 100vh;
+
+    /* position: relative;
+    top: 86px; */
 }
 #hero-sec .container{
     max-width: 100%;
@@ -176,6 +184,7 @@ body{
     gap: 30px;
 
     min-height: 100vh;
+    margin-top: 75px;
 }
 #hero-sec .container .row .col-1{
     width: 50%;
@@ -220,6 +229,9 @@ body{
 /* FOOTER SECTION >>>>>>>> */
 #footer-sec{
     background-color: var(--layer-2);
+    
+    /* position: relative;
+    top: 86px; */
 }
 #footer-sec .container .row{
     display: flex;
@@ -298,6 +310,10 @@ body{
     }
 
 
+    #hero-sec{
+        /* top: 78px; */
+        min-height: auto;
+    }
     #hero-sec .container{
         max-width: 100%;
         padding: 0 0;
@@ -305,6 +321,8 @@ body{
     #hero-sec .container .row{
         flex-direction: column;
         height: auto;
+
+        min-height: auto;
     }
     #hero-sec .container .row .col-1{
         width: 100%;
@@ -327,6 +345,9 @@ body{
     }
 
 
+    /* #footer-sec{
+        top: 78px;
+    } */
     #footer-sec .container .row{
         flex-direction: column;
     }
@@ -339,6 +360,9 @@ body{
     }
 
 
+    /* #hero-sec{
+        top: 75px;
+    } */
     #hero-sec .container .row .col-1{
         padding: 60px 30px;
     }
@@ -360,6 +384,9 @@ body{
 
 
 
+    /* #footer-sec{
+        top: 75px;
+    } */
     #footer-sec .container .row .credit-text{
         font-size: var(--small-body-text);
     }
