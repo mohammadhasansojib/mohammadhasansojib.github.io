@@ -46,12 +46,24 @@ profile picture : <img src="images/profile-picture.jpg" width="50">
 
 and a call to action.
 
+### about.html
+The About Me page details
+<pre>
+my profession : I am an student and currently completing my BSc degree in Computer Science and Engineering. Also besides my degree, i am working as a junior Frontend Web Developer. 
+
+career objectives : My goal is to solve the problems like small business, startup, entrepreuner's problem and creating website for those who want to start any online services, courses etc. 
+
+personal interest : I am very much interested to become a Full stack web developer and learning new technologies in this field. I am currently learning and exploring Backend technologies like nodjs, mongodb etc. Also i like to explore other technological field like app development, game development and blockchain etc.
+
+about image : <img src="images/profile-picture.jpg" width="50">
+</pre>
+
 ## Screen size breakpoints for responsive design
 This breakpoint is according to the microsoft screen size breakpoints for responsive design.
 
-* Small: 0-640px
-* Medium: 641-1007px
-* Large: 1008-up
+* Small : 0-640px
+* Medium : 641-1007px
+* Large : 1008-up
 
 ## Fonts
 The whole website contains two fonts. Main font and a secondary font.

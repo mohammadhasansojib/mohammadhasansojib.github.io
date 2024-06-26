@@ -1,0 +1,117 @@
+/* ABOUT SECTION >>>>>>>>>> */
+
+
+
+
+#about-sec .container{
+    max-width: 100%;
+    padding: 0;
+}
+#about-sec .container .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 100vh;
+
+    margin-top: 75px;
+}
+#about-sec .container .row .col-1{
+    background-color: var(--brand-color);
+    width: 50%;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#about-sec .container .row .col-1 .col-1-container{
+    max-width: 630px;
+    padding: 50px;
+}
+#about-sec .container .row .col-1 .col-1-container .about-heading{
+    font-size: var(--large-headings);
+    text-transform: capitalize;
+    line-height: 40px;
+    margin: 20px 0;
+    color: #fff;
+}
+#about-sec .container .row .col-1 .col-1-container p{
+    font-size: var(--large-body-text);
+    margin: 15px 0;
+    color: #fff;
+}
+#about-sec .container .row .col-2{
+    /* background-color: lightskyblue; */
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#about-sec .container .row .col-2 .col-2-container{
+    width: 450px;
+    /* max-width: 450px; */
+    height: 450px;
+    overflow: hidden;
+    border-radius: 50%;
+
+}
+#about-sec .container .row .col-2 .col-2-container img{
+    width: 100%;
+
+}
+
+/* ABOUT SECTION <<<<<<<<<< */
+
+
+
+
+
+
+
+
+
+/* RESPONSIVENESS >>>>>>>> */
+/* medium devices */
+@media only screen and (max-width: 1007px){
+    #about-sec .container .row{
+        flex-direction: column;
+        min-height: auto;
+    }
+    #about-sec .container .row .col-1{
+        width: 100%;
+        min-height: auto;
+    }
+    #about-sec .container .row .col-1 .col-1-container{
+        max-width: 100%;
+    }
+    #about-sec .container .row .col-1 .col-1-container .about-heading{
+        font-size: var(--medium-headings);
+    }
+    #about-sec .container .row .col-1 .col-1-container p{
+        font-size: var(--medium-body-text);
+    }
+    #about-sec .container .row .col-2{
+        /* background-color: lightskyblue; */
+        width: 100%;
+        padding: 50px;
+    }
+}
+
+
+/* small devices */
+@media only screen and (max-width: 640px){
+    #about-sec .container .row .col-1 .col-1-container .about-heading{
+        font-size: var(--small-headings);
+    }
+    #about-sec .container .row .col-1 .col-1-container p{
+        font-size: var(--small-body-text);
+    }
+
+    #about-sec .container .row .col-2 .col-2-container{
+        width: 300px;
+        height: 300px;
+    }
+}
+/* RESPONSIVENESS <<<<<<<< */
