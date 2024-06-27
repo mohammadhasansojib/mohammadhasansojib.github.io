@@ -58,6 +58,26 @@ personal interest : I am very much interested to become a Full stack web develop
 about image : <img src="images/profile-picture.jpg" width="50">
 </pre>
 
+### education.html
+The Education page lists my 
+<pre>
+passing year : 2022
+degree : Higher Secondary Certificate
+institution name : MEH Arif College
+
+passing year : 2020
+degree : Secondary School Certificate
+institution name : Agriculture University High School
+
+passing year : 2017
+degree : Junior School Certificate
+institution name : Agriculture University High School
+
+passing year : 2014
+degree : Primary School Certificate
+institution name : Bangabandhu Sheikh Mujibur Rahman Agriculture University Primary School
+</pre>
+
 ## Screen size breakpoints for responsive design
 This breakpoint is according to the microsoft screen size breakpoints for responsive design.
 

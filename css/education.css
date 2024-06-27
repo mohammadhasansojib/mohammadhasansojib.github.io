@@ -1,0 +1,89 @@
+/* EDUCATION SECTION >>>>>>>>>> */
+
+#education-sec .container .heading-text{
+    font-size: var(--large-headings);
+    color: var(--heading-color);
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 700;
+    margin: 20px 0;
+    margin-top: 104px;
+}
+#education-sec .container .row{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 30px 0;
+
+    min-height: calc(100vh - 215px);
+}
+#education-sec .container .row .col{
+    width: 45%;
+    padding: 20px;
+}
+#education-sec .container .row .col .col-container{
+    max-width: 320px;
+}
+#education-sec .container .row .col .col-container .passing-year{
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--brand-color);
+    display: inline-block;
+}
+#education-sec .container .row .col .col-container .degree-title{
+    font-size: var(--large-body-text);
+    color: var(--sub-heading-color);
+    text-transform: capitalize;
+    line-height: 20px;
+    margin: 10px 0;
+}
+#education-sec .container .row .col .col-container .institution-name{
+    font-size: 14px;
+    color: var(--body-text-color);
+    font-weight: 500;
+}
+
+/* EDUCATION SECTION <<<<<<<<<< */
+
+
+
+
+
+
+
+
+/* RESPONSIVENES >>>>>>>>>>> */
+/* medium device */
+@media only screen and (max-width: 1007px){
+    #education-sec .container{
+        padding: 0 20px;
+    }
+    #education-sec .container .row .col .col-container .degree-title{
+        font-size: var(--medium-body-text);
+    }
+    #education-sec .container .row .col .col-container .institution-name{
+        font-size: 12px;
+    }
+}
+
+
+
+/* small device */
+@media only screen and (max-width: 640px){
+
+    #education-sec .container{
+        padding: 0 20px;
+    }
+    #education-sec .container .row .col{
+        width: 100%;
+    }
+    #education-sec .container .row .col .col-container .degree-title{
+        font-size: var(--small-body-text);
+    }
+    #education-sec .container .row .col .col-container .institution-name{
+        font-size: 12px;
+    }
+}
+/* RESPONSIVENES <<<<<<<<<<< */
