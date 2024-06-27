@@ -12,17 +12,17 @@
     /* 1. font sizes for large devices */
     --large-body-text: 1.8rem;
     --large-headings: 3.5rem;
-    --large-sub-headding: 3rem;
+    --large-sub-heading: 3rem;
 
     /* 2. font sizes for medium devices */
     --medium-body-text: 1.7rem;
     --medium-headings: 3rem;
-    --medium-sub-headding: 2.5rem;
+    --medium-sub-heading: 2.5rem;
 
     /* 3. font sizes for small devices */
     --small-body-text: 1.6rem;
     --small-headings: 2.1rem;
-    --small-sub-headding: 1.8rem;
+    --small-sub-heading: 1.8rem;
 
 
     /* COLORS */
@@ -103,7 +103,7 @@ body{
     padding: 20px 0;
 }
 #header-sec .container .row .logo h2{
-    font-size: var(--large-sub-headding);
+    font-size: var(--large-sub-heading);
     cursor: pointer;
 }
 #header-sec .container .row nav ul li{
@@ -277,7 +277,7 @@ body{
 /* MEDIUM DEVICES */
 @media only screen and (max-width: 1007px){
     #header-sec .container .row .logo h2{
-        font-size: var(--medium-sub-headding);
+        font-size: var(--medium-sub-heading);
     }
     #header-sec .container .row nav{
         position: absolute;
@@ -356,7 +356,7 @@ body{
 /* SMALL DEVICES */
 @media only screen and (max-width: 640px){
     #header-sec .container .row .logo h2{
-        font-size: var(--small-sub-headding);
+        font-size: var(--small-sub-heading);
     }
 
 
