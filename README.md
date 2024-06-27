@@ -78,6 +78,19 @@ degree : Primary School Certificate
 institution name : Bangabandhu Sheikh Mujibur Rahman Agriculture University Primary School
 </pre>
 
+### skills.html
+The skills page showcase my technical & soft skills like
+<pre>
+technical skills - 
+    HTML
+    CSS
+    JAVASCRIPT
+    GIT
+
+soft skills - 
+    Documentation writing
+</pre>
+
 ## Screen size breakpoints for responsive design
 This breakpoint is according to the microsoft screen size breakpoints for responsive design.
 

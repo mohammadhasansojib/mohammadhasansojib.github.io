@@ -1,0 +1,71 @@
+/* SKILLS SECTION >>>>>>>>> */
+
+#skills-sec .container .heading-text{
+    font-size: var(--large-headings);
+    text-transform: capitalize;
+    color: var(--heading-color);
+    text-align: center;
+    margin-top: 110px;
+}
+#skills-sec .container .row{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 30px 0;
+
+    min-height: calc(100vh - 168px);
+}
+#skills-sec .container .row .col{
+    padding: 20px;
+    width: 45%;
+}
+#skills-sec .container .row .col .sub-heading{
+    font-size: var(--large-sub-heading);
+    text-transform: capitalize;
+    color: var(--sub-heading-color);
+    line-height: 32px;
+    margin: 20px 0;
+
+}
+#skills-sec .container .row .col ul li{
+    font-size: var(--large-body-text);
+    text-transform: uppercase;
+    line-height: 28px;
+    color: var(--body-text-color);
+}
+
+/* SKILLS SECTION <<<<<<<<< */
+
+
+
+
+
+/* RESPONSIVENESS >>>>>>>> */
+/* medium device */
+@media only screen and (max-width: 1007px){
+    #skills-sec .container .row .col .sub-heading{
+        font-size: var(--medium-sub-heading);
+    }
+    #skills-sec .container .row .col ul li{
+        font-size: var(--medium-body-text);
+    }
+}
+
+
+/* small device */
+@media only screen and (max-width: 640px){
+    #skills-sec .container .row .col{
+        width: 100%;
+    }
+    #skills-sec .container .row .col .sub-heading{
+        font-size: var(--small-sub-heading);
+    }
+    #skills-sec .container .row .col ul li{
+        font-size: var(--small-body-text);
+    }
+}
+
+
+/* RESPONSIVENESS <<<<<<<< */
