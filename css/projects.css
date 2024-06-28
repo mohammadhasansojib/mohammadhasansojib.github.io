@@ -1,0 +1,82 @@
+/* PROJECTS SECTION >>>>>>>>> */
+
+
+#projects-sec .container .heading-text{
+    font-size: var(--large-headings);
+    text-transform: capitalize;
+    color: var(--heading-color);
+    text-align: center;
+    margin: 10px 0;
+    margin-top: 135px;
+}
+#projects-sec .container .row{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px 0;
+
+    min-height: calc(100vh - 188px);
+}
+#projects-sec .container .row .card{
+    background-color: var(--layer-3);
+    padding: 20px;
+    width: 350px;
+
+}
+#projects-sec .container .row .card .card-container .card-image{
+    width: 100%;
+}
+#projects-sec .container .row .card .card-container .card-image img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    object-position: center;
+}
+#projects-sec .container .row .card .card-container .project-title{
+    font-size: var(--large-sub-heading);
+    text-transform: capitalize;
+    color: var(--sub-heading-color);
+}
+#projects-sec .container .row .card .card-container .role{
+    font-size: var(--large-body-text);
+    color: var(--body-text-color);
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+#projects-sec .container .row .card .card-container .buttons{
+    display: flex;
+    gap: 20px;
+}
+#projects-sec .container .row .card .card-container .buttons .cta{
+    font-size: 14px;
+}
+
+/* PROJECTS SECTION <<<<<<<<< */
+
+
+
+
+/* RESPONSIVENESS >>>>>>>>> */
+/* medium device */
+@media only screen and (max-width: 1007px){
+    #projects-sec .container .row .card .card-container .project-title{
+        font-size: var(--medium-sub-heading);
+    }
+    #projects-sec .container .row .card .card-container .role{
+        font-size: var(--medium-body-text);
+    }
+}
+
+
+/* small device */
+@media only screen and (max-width: 640px){
+    #projects-sec .container .row .card .card-container .project-title{
+        font-size: var(--small-sub-heading);
+    }
+    #projects-sec .container .row .card .card-container .role{
+        font-size: var(--small-body-text);
+    }
+}
+/* RESPONSIVENESS <<<<<<<<< */
