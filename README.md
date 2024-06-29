@@ -91,6 +91,19 @@ soft skills -
     Documentation writing
 </pre>
 
+### contact.html
+The contact page includes my contact info  like
+<pre>
+Email : sajibhasan800080@gmail.com
+Phone Number : 01882521430
+Professional social media links : github, linkedin, facebook
+
+input fileds --
+Name : [.........]
+Email : [.........]
+Phone : [..........]
+</pre>
+
 ## Screen size breakpoints for responsive design
 This breakpoint is according to the microsoft screen size breakpoints for responsive design.
 
