@@ -117,7 +117,7 @@ body{
     color: var(--body-text-color);
     text-transform: capitalize;
     font-size: 1.6rem;
-    font-weight: 200;
+    font-weight: 500;
     margin: 0 5px;
     padding: 10px 10px;
 }
