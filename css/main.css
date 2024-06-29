@@ -82,6 +82,9 @@ body{
     line-height: 25px;
     
 }
+.active{
+    color: var(--brand-color) !important;
+}
 
 
 /* HEADER SECTION >>>>>>>> */
