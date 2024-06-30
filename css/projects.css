@@ -20,7 +20,8 @@
     min-height: calc(100vh - 188px);
 }
 #projects-sec .container .row .card{
-    background-color: var(--layer-3);
+    /* background-color: var(--layer-3); */
+    border: 5px solid var(--brand-color);
     padding: 20px;
     width: 350px;
 
