@@ -3,10 +3,10 @@ let navbar = document.getElementById("navbar");
 
 nav_btn.addEventListener("click", function (){
 
-    if(navbar.style.display == "none"){
-        navbar.style.display = "block";
-    }else{
+    if(navbar.style.display == "block"){
         navbar.style.display = "none";
+    }else{
+        navbar.style.display = "block";
     }
 
 })
